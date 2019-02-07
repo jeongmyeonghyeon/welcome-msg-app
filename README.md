@@ -42,13 +42,13 @@ brew 를 통해 설치가능...(맥OS)
 
 외부 패키지 관리, 테스트, 컴파일 및 배포를 위한 최종 결과물을 생성하는 등의 작업을 수행(dist)
 
-npm help
-npm init - 명령이 실행되는 위치에 package.json 파일 생성, NPM 패키지 관리를 위한 초기화 작업 수행.
-npm install - package.json 파일이 있는 경우 파일에 선언된 의존 패키지 설치, npm install [패키지명], --save, --save-dev 옵션
-npm uninstall - npm uninstall [패키지명], --save, --save-dev 옵션
-npm list - 현재 설치된 패키지 목록을 트리 형태로 보여줌, --depth= 옵션
-npm prune - package.json 에 선언된 패키지 기준으로 현재 설치된 패키지 중 선언되지 않은 것 정리
-npm link - 전역 환경에서 설치된 패키지에 명령이 수행된 로컬 환경으로 심볼릭 링크를 걸어... 로컬에서 전역 바라보게.
+npm help  
+npm init - 명령이 실행되는 위치에 package.json 파일 생성, NPM 패키지 관리를 위한 초기화 작업 수행.  
+npm install - package.json 파일이 있는 경우 파일에 선언된 의존 패키지 설치, npm install [패키지명], --save, --save-dev 옵션  
+npm uninstall - npm uninstall [패키지명], --save, --save-dev 옵션  
+npm list - 현재 설치된 패키지 목록을 트리 형태로 보여줌, --depth= 옵션  
+npm prune - package.json 에 선언된 패키지 기준으로 현재 설치된 패키지 중 선언되지 않은 것 정리  
+npm link - 전역 환경에서 설치된 패키지에 명령이 수행된 로컬 환경으로 심볼릭 링크를 걸어... 로컬에서 전역 바라보게.  
 npm run - package.json 의 scripts에 선언된 명령을 수행. 주로 반복적으로 사용하는 주요한 패키지 명령을 등록.
 
 =====
