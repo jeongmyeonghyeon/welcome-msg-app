@@ -1,0 +1,17 @@
+{
+  "name": "welcome-msg-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@angular-devkit/core": "^7.3.0",
+    "@angular/cli": "^1.6.0",
+    "jquery": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
